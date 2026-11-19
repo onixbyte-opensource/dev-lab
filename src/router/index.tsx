@@ -55,6 +55,10 @@ const router = createBrowserRouter(
           path: "bmi-calculator",
           lazy: lazy(() => import("@/page/bmi-calculator")),
         },
+        {
+          path: "mermaid",
+          lazy: lazy(() => import("@/page/mermaid")),
+        },
       ],
     },
   ],

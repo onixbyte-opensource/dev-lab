@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [1.2.0] - 2026-11-19
+
+### Added
+- Introduced a Mermaid diagram tool with live preview and a zoom control.
+- Export diagrams as SVG, PNG or JPG, fully locally in the browser.
+
 ## [1.1.2] - 2026-03-02
 
 ### Changed
