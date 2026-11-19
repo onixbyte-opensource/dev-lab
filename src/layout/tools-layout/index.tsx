@@ -24,6 +24,10 @@ export default function ToolsLayout() {
         title: t("navigation.dailyTools"),
         items: [{ to: "/bmi-calculator", label: t("home.bmiCalculator"), shortLabel: "BMI" }],
       },
+      {
+        title: t("navigation.diagrams"),
+        items: [{ to: "/mermaid", label: t("home.mermaid"), shortLabel: "MD" }],
+      },
     ],
     [t]
   )

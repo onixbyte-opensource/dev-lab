@@ -12,6 +12,7 @@
     "tools": "Tools",
     "jsonProcessing": "JSON Processing",
     "dailyTools": "Daily Tools",
+    "diagrams": "Diagrams",
     "expandToolsMenu": "Expand tools menu",
     "collapseToolsMenu": "Collapse tools menu"
   },
@@ -37,6 +38,10 @@
       "title": "BMI Calculator - Instant Results",
       "description": "Calculate your Body Mass Index (BMI) with instant feedback and category guidance."
     },
+    "mermaid": {
+      "title": "Mermaid Diagram Editor - Export SVG, PNG and JPG",
+      "description": "Write and preview Mermaid diagrams locally in your browser and export them as SVG, PNG or JPG images."
+    },
     "about": {
       "title": "About DevLab",
       "description": "Learn about DevLab, an open source, privacy-focused toolkit for developers."
@@ -58,8 +63,10 @@
     "jsonViewer": "JSON Viewer",
     "bmiCalculator": "BMI Calculator",
     "jsonGrid": "JSON Grid",
+    "mermaid": "Mermaid Diagrams",
     "bmiCalculatorDescription": "Calculate your Body Mass Index (BMI) to assess your weight status and health. Get instant results with personalised advice based on your BMI category.",
     "jsonGridDescription": "Convert JSON arrays into a clean table view for quick inspection and comparison.",
+    "mermaidDescription": "Write Mermaid syntax with a live preview and export your diagrams as SVG, PNG or JPG.",
     "features": {
       "tools": {
         "title": "🛠️ Developer Tools",
@@ -95,6 +102,18 @@
     "empty": "No data to display.",
     "parseError": "Invalid JSON:",
     "arrayOnlyError": "Please provide a JSON array."
+  },
+  "mermaid": {
+    "source": "Mermaid Source",
+    "placeholder": "e.g. flowchart LR\n    A[Start] --> B[End]",
+    "preview": "Diagram Preview",
+    "zoom": "Zoom",
+    "fit": "Fit",
+    "exportSvg": "Export SVG",
+    "exportPng": "Export PNG",
+    "exportJpg": "Export JPG",
+    "error": "Error:",
+    "empty": "Enter Mermaid code to see the diagram."
   },
   "about": {
     "title": "About DevLab",

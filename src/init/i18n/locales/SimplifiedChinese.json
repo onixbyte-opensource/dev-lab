@@ -12,6 +12,7 @@
     "tools": "工具",
     "jsonProcessing": "JSON 处理",
     "dailyTools": "日常小工具",
+    "diagrams": "图表",
     "expandToolsMenu": "展开工具菜单",
     "collapseToolsMenu": "收起工具菜单"
   },
@@ -37,6 +38,10 @@
       "title": "BMI 计算器 - 即时结果",
       "description": "快速计算 BMI，并获得分类与建议。"
     },
+    "mermaid": {
+      "title": "Mermaid 图表编辑器 - 导出 SVG、PNG 和 JPG",
+      "description": "在浏览器本地编写并预览 Mermaid 图表，导出为 SVG、PNG 或 JPG 图片。"
+    },
     "about": {
       "title": "关于 DevLab",
       "description": "了解 DevLab：一个开源且注重隐私的开发者工具集合。"
@@ -58,8 +63,10 @@
     "jsonViewer": "JSON 查看器",
     "bmiCalculator": "BMI 计算器",
     "jsonGrid": "JSON Grid",
+    "mermaid": "Mermaid 图表",
     "bmiCalculatorDescription": "计算您的身体质量指数（BMI）以评估您的体重状态和健康状况。根据您的 BMI 分类获得即时结果和个性化建议。",
     "jsonGridDescription": "将 JSON 数组转换为清晰的表格视图，便于快速查看和对比。",
+    "mermaidDescription": "编写 Mermaid 语法并实时预览图表，导出为 SVG、PNG 或 JPG。",
     "features": {
       "tools": {
         "title": "🛠️ 开发者工具",
@@ -95,6 +102,18 @@
     "empty": "暂无可展示的数据。",
     "parseError": "JSON 无效：",
     "arrayOnlyError": "请输入 JSON 数组。"
+  },
+  "mermaid": {
+    "source": "Mermaid 源码",
+    "placeholder": "例如：flowchart LR\n    A[开始] --> B[结束]",
+    "preview": "图表预览",
+    "zoom": "缩放",
+    "fit": "适应宽度",
+    "exportSvg": "导出 SVG",
+    "exportPng": "导出 PNG",
+    "exportJpg": "导出 JPG",
+    "error": "错误：",
+    "empty": "输入 Mermaid 代码以预览图表。"
   },
   "about": {
     "title": "关于 DevLab",

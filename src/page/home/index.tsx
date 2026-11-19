@@ -21,7 +21,7 @@ export default function Home() {
         <p className="mt-4 text-lg text-gray-600">{t("home.description")}</p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         <div className="bg-white shadow rounded-lg p-8 border border-gray-100 text-center">
           <h2 className="text-2xl font-semibold text-gray-900 mb-4">{t("home.jsonViewer")}</h2>
           <p className="text-gray-600 mb-6">{t("home.jsonViewerDescription")}</p>
@@ -47,6 +47,16 @@ export default function Home() {
           <p className="text-gray-600 mb-6">{t("home.jsonGridDescription")}</p>
           <Link
             to="/json-grid"
+            className="inline-flex items-center gap-2 px-6 py-3 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition-colours font-medium">
+            {t("home.getStarted")}
+          </Link>
+        </div>
+
+        <div className="bg-white shadow rounded-lg p-8 border border-gray-100 text-center">
+          <h2 className="text-2xl font-semibold text-gray-900 mb-4">{t("home.mermaid")}</h2>
+          <p className="text-gray-600 mb-6">{t("home.mermaidDescription")}</p>
+          <Link
+            to="/mermaid"
             className="inline-flex items-center gap-2 px-6 py-3 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition-colours font-medium">
             {t("home.getStarted")}
           </Link>
